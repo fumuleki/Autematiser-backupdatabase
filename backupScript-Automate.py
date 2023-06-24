@@ -18,9 +18,9 @@ import pipes
 # Détails de la base de données MySQL sur laquelle la sauvegarde doit être effectuée. Assurez-vous que l'utilisateur ci-dessous dispose de suffisamment de privilèges pour effectuer une sauvegarde de base de données.
 # Pour effectuer une sauvegarde de plusieurs bases de données, créez n'importe quel fichier comme /backup/dbnames.txt et placez les noms de bases de données un sur chaque ligne et attribués à la variable DB_NAME.
  
-DB_HOST = '192.168.0.28' 
+DB_HOST = '192.168.1.2' 
 DB_USER = 'root'
-DB_USER_PASSWORD = 'Cedrick1987'
+DB_USER_PASSWORD = 'Mypassword'
 #DB_NAME = '/backup/dbnameslist.txt'
 DB_NAME = '/home/cedrick/dbnamelist.txt'
 BACKUP_PATH = '/home/cedrick/dbbackup'
